@@ -1,7 +1,6 @@
 import React,{useState, useEffect} from 'react'
 import { Link } from 'react-router-dom';
 import {toast} from "react-toastify";
-import _map from 'lodash/map';
 import home from './home.css';
 import axios from "axios";
 
@@ -42,25 +41,6 @@ function Home() {
         <th>Contact</th>
         <th>Action</th>
       </tr>
-      {/* {_map(Object.entries(data),(item, index)=>{
-           <tr key={item.id}>
-           <td  className='table-row'>{index+1}</td>
-           <td>{item.name}</td>
-           <td>{item.email}</td>
-           <td>{item.contact}</td>
-           <td>
-             <Link to={`/updatecontact/${item.id}`}>
-               <button className='btn btn-edit'>Edit</button>
-             </Link>
-            
-               <button className='btn btn-delete' onClick={()=>deleteContact(item.id)}>Dlete</button>
-             
-             <Link to={`/viewcontact/${item.id}`}>
-                <button className='btn btn-view'>View</button>
-              </Link>
-           </td>
-        </tr>
-      })} */}
        {data.map((item, index)=>{
                 return(
                    <tr key={item.id}>
