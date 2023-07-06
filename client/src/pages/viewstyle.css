@@ -1,0 +1,31 @@
+.client-detail{
+    max-width:600px;
+    margin: auto;
+    background-color: rgb(216, 235, 235);
+    margin-top:60px;
+    border-radius:10px;
+    padding-bottom: 20px;
+}
+.header-data{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #428bca;
+    color:aliceblue;
+    font-size: 30px;
+    font-weight: 700;
+    padding:40px 40px;
+    border-bottom: 2px solid rgb(51, 54, 52); 
+}
+.contacts-div{
+    max-width:300px; 
+    margin:auto;
+}
+.contact-items{
+    display:flex;
+    align-items: center;
+    /* justify-content:space-around; */
+
+}
+h3{
+    margin-right:10px;
+}

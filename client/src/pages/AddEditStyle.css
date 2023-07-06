@@ -1,0 +1,64 @@
+.add-client{
+    max-width:600px;
+    margin: auto;
+    padding:30px 10px;
+    background-color: rgb(206, 207, 207);
+    margin-top:60px;
+    border-radius:10px;
+    /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
+}
+.registration { 
+    max-width: 400px;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid black;
+    border-radius: 10px 10px 0 0;
+}
+
+header {
+    text-align: center;
+
+}
+
+#survey-form {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+    border-top: 2px solid rgb(51, 54, 52);
+
+}
+
+.top-label {
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.top-input {
+    margin-top: 10px;
+    height: 25px;
+    /* width: 100%; */
+    font-size: 16px;
+}
+input{
+    padding:10px;
+    border-radius: 5px;
+    border:none;
+}
+.btn-style{
+    padding:10px;
+    margin-top:20px !important;
+    width:100%;
+    border:none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}
+.submit-btn{
+    background-color: rgb(18, 113, 229);
+}
+.goback-btn{
+    background-color: rgb(59, 66, 74);
+    color:#ffffff;
+}
+
